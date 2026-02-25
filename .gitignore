@@ -1,0 +1,52 @@
+# 根目录忽略文件
+
+# 临时打包文件
+*.zip
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+
+# ========== Node.js 依赖和构建产物 ==========
+**/node_modules/
+**/.npm/
+**/.yarn/
+
+# 前端构建产物
+**/dist/
+**/dist-ssr/
+**/.output/
+
+# ========== Python 虚拟环境和缓存 ==========
+**/venv/
+**/.venv/
+**/env/
+**/.env/
+
+# Python 缓存
+**/__pycache__/
+**/*.py[cod]
+**/*.pyc
+**/*.pyd
+**/.Python
+
+# ========== 日志文件 ==========
+**/logs/
+**/*.log
+
+# ========== 环境变量文件（敏感信息）==========
+**/.env
+**/.env.*
+**/*.local
+# 但保留示例文件
+!**/.env.example
+!**/.env.production.example
+
+# ========== IDE 和编辑器临时文件 ==========
+*.swp
+*.swo
+*~

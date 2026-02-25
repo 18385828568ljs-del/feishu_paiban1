@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv
+
+# Node.js (如果有前端工具)
+node_modules/
+
+# Environment variables (contains secrets!)
+.env
+.env.local
+.env.production.local
+
+# Database
+*.db
+*.sqlite3
+*.sql.backup
+
+# Logs
+*.log
+logs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Package files
+*.zip
+*.tar.gz
+
+# Backup files
+backup_*.sql
+*_backup.*
+
+# Test files
+test_output.*
