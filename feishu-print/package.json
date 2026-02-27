@@ -2,6 +2,7 @@
   "name": "feishu-print",
   "version": "0.0.0",
   "private": true,
+  "output": "dist",
   "type": "module",
   "scripts": {
     "dev": "vite",

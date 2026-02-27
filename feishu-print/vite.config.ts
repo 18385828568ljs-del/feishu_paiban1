@@ -16,6 +16,6 @@ export default defineConfig(({ command }) => {
     server: {
       port: 5155
     },
-    base: command === 'serve' ? '/' : '/feishu-print/'
+    base: command === 'serve' ? '/' : './'
   }
 });
