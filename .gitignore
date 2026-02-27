@@ -20,6 +20,9 @@ Thumbs.db
 **/dist/
 **/dist-ssr/
 **/.output/
+# 飞书插件主前端的 dist 需要提交到仓库（飞书审核要求）
+!feishu-print/dist/
+!feishu-print/dist/**
 
 # ========== Python 虚拟环境和缓存 ==========
 **/venv/
